@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
     <meta charset="UTF-8">
     <title>Hangman</title>
 </head>
 <body>
-
+    <div>
+        <input id="chooseLetter" >
+        <button id="playGame"  onCLick="playHangman()" type="button">Submit</button>
+    </div>
+    <div id="underScores" class="under-scores">
+    </div>
+        <div>
+        <p id="livesText">
+        </p>
+        </div>
+        <div>
+        <p id="gameOverText">
+        </p>
+        </div>>
 </body>
 </html>
