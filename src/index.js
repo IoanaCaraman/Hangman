@@ -52,6 +52,6 @@ function updateLivesText() {
 }
 
 window.addEventListener("load", (event) => {
-generateUnderscores();
-updateLivesText();
+    generateUnderscores();
+    updateLivesText();
 });
